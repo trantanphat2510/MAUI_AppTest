@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\code\\MAUI\\AppTest\\LocationPhotoApi\\wwwroot\\photos\\photo_20250518141750657.jpg",
+      "PackagePath": "staticwebassets\\photos\\photo_20250518141750657.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.LocationPhotoApi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.LocationPhotoApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.LocationPhotoApi.props",
+      "PackagePath": "build\\LocationPhotoApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.LocationPhotoApi.props",
+      "PackagePath": "buildMultiTargeting\\LocationPhotoApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.LocationPhotoApi.props",
+      "PackagePath": "buildTransitive\\LocationPhotoApi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
