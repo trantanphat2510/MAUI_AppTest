@@ -2,153 +2,209 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="LocationPhotoApp.MainPage"
-             BackgroundColor="#f8f9fa">
+             BackgroundColor="White">
 
-    <Grid RowDefinitions="Auto,*,Auto" 
-          Padding="20"
-          RowSpacing="20">
+    <ScrollView>
+        <Grid RowDefinitions="Auto,*,Auto" 
+              Padding="20,24,20,32"
+              RowSpacing="24">
 
-        <!-- Header -->
-        <VerticalStackLayout Grid.Row="0" Spacing="10">
-            <Label Text="Location Photo App" 
-                   FontSize="28" 
-                   FontAttributes="Bold" 
-                   HorizontalOptions="Center"
-                   TextColor="#1e88e5"/>
-            <Label Text="Chụp ảnh và chia sẻ vị trí của bạn" 
-                   FontSize="16" 
-                   HorizontalOptions="Center" 
-                   TextColor="#757575"/>
-            <BoxView HeightRequest="1" 
-                     BackgroundColor="#e0e0e0" 
-                     HorizontalOptions="Fill"
-                     Margin="0,10,0,0"/>
-        </VerticalStackLayout>
+            <!-- Tiêu đề hiện đại -->
+            <!--
+            <VerticalStackLayout Grid.Row="0" 
+                               Spacing="8"
+                               Margin="0,20,0,0">
+                <Label Text="Location Photo" 
+                       FontSize="32" 
+                       FontAttributes="Bold" 
+                       HorizontalOptions="Center"
+                       TextColor="#1a1a1a"
+                       FontFamily="SegoeUI"
+                       CharacterSpacing="-0.5"/>
+                <Label Text="Capture and share your location" 
+                       FontSize="15" 
+                       HorizontalOptions="Center" 
+                       TextColor="#666666"
+                       FontFamily="SegoeUI"
+                       FontAttributes="None"/>
+            </VerticalStackLayout>
+            -->
 
-        <!-- Main Content -->
-        <Grid Grid.Row="1" 
-              RowDefinitions="*,Auto,Auto" 
-              RowSpacing="15">
-            <!-- Image Display -->
-            <Border x:Name="photoBorder"
-                    Grid.Row="0"
-                    Stroke="#e0e0e0"
-                    StrokeShape="RoundRectangle 12"
-                    Background="White"
-                    Margin="0,10"
-                    HorizontalOptions="Fill"
-                    VerticalOptions="Fill">
-                <Border.Shadow>
-                    <Shadow Brush="#000000"
-                            Offset="5,5"
-                            Opacity="0.3"
-                            Radius="8"/>
-                </Border.Shadow>
-                <Grid>
-                    <Image x:Name="photoImage"
-                           Aspect="AspectFill"
-                           HorizontalOptions="Fill"
-                           VerticalOptions="Fill"/>
-                    <Label x:Name="photoPlaceholder"
-                           Text="Chưa có ảnh" 
-                           TextColor="#9e9e9e"
-                           HorizontalOptions="Center"
-                           VerticalOptions="Center"
-                           FontSize="18"/>
-                </Grid>
-            </Border>
+            <!-- Nội dung chính -->
+            <VerticalStackLayout Grid.Row="1" Spacing="20">
 
-            <!-- Location Display -->
-            <Border x:Name="locationBorder"
-                    Grid.Row="1"
-                    Stroke="#e0e0e0"
-                    StrokeShape="RoundRectangle 8"
-                    Background="White"
-                    Padding="15">
-                <Border.Shadow>
-                    <Shadow Brush="#000000"
-                            Offset="4,4"
-                            Opacity="0.25"
-                            Radius="6"/>
-                </Border.Shadow>
-                <StackLayout Orientation="Horizontal" Spacing="10">
-                    <Image Source="location_pin.png"
-                           HeightRequest="24"
-                           WidthRequest="24"
-                           VerticalOptions="Center"/>
-                    <Label x:Name="locationLabel"
-                           Text="Vị trí: Chưa xác định"
-                           VerticalOptions="Center"
-                           TextColor="#424242"
-                           FontSize="15"/>
-                </StackLayout>
-            </Border>
+                <!-- Thẻ hiển thị ảnh hiện đại -->
+                <Border BackgroundColor="#f8f9fa"
+                        StrokeThickness="1"
+                        Stroke="#e9ecef"
+                        StrokeShape="RoundRectangle 16">
+                    <Grid HeightRequest="280"
+                          Padding="0">
 
-            <!-- Status Message -->
-            <Border x:Name="statusBorder"
-                    Grid.Row="2"
-                    Stroke="#e0e0e0"
-                    StrokeShape="RoundRectangle 8"
-                    Background="White"
-                    Padding="15">
-                <Border.Shadow>
-                    <Shadow Brush="#000000"
-                            Offset="4,4"
-                            Opacity="0.25"
-                            Radius="6"/>
-                </Border.Shadow>
-                <StackLayout Orientation="Horizontal" Spacing="10">
-                    <Image Source="status_icon.png"
-                           HeightRequest="24"
-                           WidthRequest="24"
-                           VerticalOptions="Center"/>
-                    <Label x:Name="statusLabel"
-                           Text="Sẵn sàng chụp ảnh"
-                           VerticalOptions="Center"
-                           TextColor="#424242"
-                           FontSize="15"/>
-                </StackLayout>
-            </Border>
+                        <!-- Hình ảnh đã chụp -->
+                        <Image x:Name="photoImage"
+                               Aspect="AspectFill"
+                               HorizontalOptions="Fill"
+                               VerticalOptions="Fill"/>
+
+                        <!-- Placeholder khi chưa có ảnh -->
+                        <VerticalStackLayout x:Name="photoPlaceholder"
+                                             HorizontalOptions="Center"
+                                             VerticalOptions="Center"
+                                             Spacing="12">
+
+                            <!-- Biểu tượng ảnh -->
+                            <Border BackgroundColor="#dee2e6"
+                                    StrokeThickness="0"
+                                    StrokeShape="RoundRectangle 24"
+                                    WidthRequest="48"
+                                    HeightRequest="48">
+                                <Label Text="📷"
+                                       FontSize="20"
+                                       HorizontalOptions="Center"
+                                       VerticalOptions="Center"
+                                       TextColor="#6c757d"/>
+                            </Border>
+
+                            <Label Text="Chưa chụp ảnh"
+                                   FontSize="14"
+                                   TextColor="#6c757d"
+                                   HorizontalOptions="Center"
+                                   FontFamily="SegoeUI"
+                                   FontAttributes="None"/>
+                        </VerticalStackLayout>
+
+                        <!-- Lớp phủ nhẹ giúp dễ đọc nội dung -->
+                        <BoxView BackgroundColor="#00000015"
+                                 HorizontalOptions="Fill"
+                                 VerticalOptions="End"
+                                 HeightRequest="60"
+                                 IsVisible="False"
+                                 x:Name="photoOverlay"/>
+                    </Grid>
+                </Border>
+
+                <!-- Các thẻ thông tin hiện đại -->
+                <VerticalStackLayout Spacing="12">
+
+                    <!-- Thẻ vị trí -->
+                    <Border BackgroundColor="#f8f9fa"
+                            StrokeThickness="1"
+                            Stroke="#e9ecef"
+                            StrokeShape="RoundRectangle 12"
+                            Padding="20,16">
+                        <VerticalStackLayout Spacing="6">
+                            <Label Text="VỊ TRÍ"
+                                   FontSize="11"
+                                   TextColor="#6c757d"
+                                   FontAttributes="Bold"
+                                   FontFamily="SegoeUI"
+                                   CharacterSpacing="0.5"/>
+                            <Label x:Name="locationLabel"
+                                   Text="Chưa xác định"
+                                   FontSize="15"
+                                   TextColor="#1a1a1a"
+                                   FontFamily="SegoeUI"
+                                   FontAttributes="None"
+                                   LineBreakMode="WordWrap"/>
+                        </VerticalStackLayout>
+                    </Border>
+
+                    <!-- Thẻ trạng thái -->
+                    <Border BackgroundColor="#f8f9fa"
+                            StrokeThickness="1"
+                            Stroke="#e9ecef"
+                            StrokeShape="RoundRectangle 12"
+                            Padding="20,16">
+                        <VerticalStackLayout Spacing="6">
+                            <Label Text="TRẠNG THÁI"
+                                   FontSize="11"
+                                   TextColor="#6c757d"
+                                   FontAttributes="Bold"
+                                   FontFamily="SegoeUI"
+                                   CharacterSpacing="0.5"/>
+                            <HorizontalStackLayout Spacing="8">
+                                <!-- Chỉ báo trạng thái -->
+                                <Ellipse Fill="#28a745"
+                                         WidthRequest="8"
+                                         HeightRequest="8"
+                                         VerticalOptions="Center"/>
+                                <Label x:Name="statusLabel"
+                                       Text="Sẵn sàng chụp ảnh"
+                                       FontSize="15"
+                                       TextColor="#1a1a1a"
+                                       FontFamily="SegoeUI"
+                                       FontAttributes="None"
+                                       VerticalOptions="Center"
+                                       LineBreakMode="WordWrap"/>
+                            </HorizontalStackLayout>
+                        </VerticalStackLayout>
+                    </Border>
+
+                    <!-- Thẻ kết quả mã QR -->
+                    <Border BackgroundColor="#f8f9fa"
+                            StrokeThickness="1"
+                            Stroke="#e9ecef"
+                            StrokeShape="RoundRectangle 12"
+                            Padding="20,16">
+                        <VerticalStackLayout Spacing="6">
+                            <Label Text="KẾT QUẢ MÃ QR"
+                                   FontSize="11"
+                                   TextColor="#6c757d"
+                                   FontAttributes="Bold"
+                                   FontFamily="SegoeUI"
+                                   CharacterSpacing="0.5"/>
+                            <Label x:Name="qrResultLabel"
+                                   Text="Nội dung QR sẽ hiển thị tại đây"
+                                   FontSize="15"
+                                   TextColor="#1a1a1a"
+                                   FontFamily="SegoeUI"
+                                   FontAttributes="None"
+                                   LineBreakMode="WordWrap"/>
+                        </VerticalStackLayout>
+                    </Border>
+                </VerticalStackLayout>
+            </VerticalStackLayout>
+
+            <!-- Các nút hành động hiện đại -->
+            <VerticalStackLayout Grid.Row="2" 
+                               Spacing="12"
+                               Margin="0,8,0,0">
+
+                <!-- Nút chính -->
+                <Border BackgroundColor="#1a1a1a"
+                        StrokeThickness="0"
+                        StrokeShape="RoundRectangle 12"
+                        HeightRequest="52">
+                    <Button x:Name="takePhotoButton"
+                            Text="Chụp ảnh"
+                            Clicked="OnTakePhotoClicked"
+                            BackgroundColor="Transparent"
+                            TextColor="White"
+                            FontSize="16"
+                            FontAttributes="Bold"
+                            FontFamily="SegoeUI"
+                            HorizontalOptions="Fill"
+                            VerticalOptions="Fill"/>
+                </Border>
+
+                <!-- Nút phụ -->
+                <Border BackgroundColor="White"
+                        StrokeThickness="2"
+                        Stroke="#e9ecef"
+                        StrokeShape="RoundRectangle 12"
+                        HeightRequest="52">
+                    <Button Text="Quét mã QR"
+                            Clicked="OnScanQRCodeClicked"
+                            BackgroundColor="Transparent"
+                            TextColor="#1a1a1a"
+                            FontSize="16"
+                            FontAttributes="Bold"
+                            FontFamily="SegoeUI"
+                            HorizontalOptions="Fill"
+                            VerticalOptions="Fill"/>
+                </Border>
+            </VerticalStackLayout>
         </Grid>
-
-        <!-- Footer with Camera Button and QR Button -->
-        <VerticalStackLayout Grid.Row="2" 
-                            Spacing="10" 
-                            HorizontalOptions="Center">
-            <Border x:Name="takePhotoButtonBorder"
-                    WidthRequest="60"
-                    HeightRequest="60"
-                    Stroke="Transparent"
-                    StrokeShape="RoundRectangle 20"
-                    Background="#1e88e5"
-                    HorizontalOptions="Center">
-                <Border.Shadow>
-                    <Shadow Brush="#000000"
-                            Offset="3,3"
-                            Opacity="0.3"
-                            Radius="5"/>
-                </Border.Shadow>
-                <Button x:Name="takePhotoButton"
-                        BackgroundColor="Transparent"
-                        Clicked="OnTakePhotoClicked"
-                        ImageSource="https://cdn3.iconfinder.com/data/icons/linecons-free-vector-icons-pack/32/camera-1024.png"
-                        HorizontalOptions="Center"
-                        VerticalOptions="Center"/>
-            </Border>
-
-            <!-- QR Code Button and Result Label -->
-            <Button Text="Quét mã QR" 
-                    Clicked="OnScanQRCodeClicked"
-                    BackgroundColor="#1e88e5"
-                    TextColor="White"
-                    CornerRadius="8"
-                    Padding="10"
-                    WidthRequest="150"/>
-            <Label x:Name="qrResultLabel" 
-                   Text="Nội dung QR sẽ hiển thị ở đây"
-                   TextColor="#424242"
-                   FontSize="14"
-                   HorizontalOptions="Center"/>
-        </VerticalStackLayout>
-    </Grid>
+    </ScrollView>
 </ContentPage>

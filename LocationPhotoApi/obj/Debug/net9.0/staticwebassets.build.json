@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "X2rdJLYAIGC16BNTkruryijruhonzeN9WIulV/rrZf4=",
+  "Hash": "y/VEqGSCZvMa8su4mUmWsT2Ez84SwQ9EzZzAZ0yv+Ow=",
   "Source": "LocationPhotoApi",
   "BasePath": "_content/LocationPhotoApi",
   "Mode": "Default",
@@ -38,12 +38,12 @@
       "OriginalItemSpec": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photos.json"
     },
     {
-      "Identity": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photo_20250518141750657.jpg",
+      "Identity": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photo_20250528031206042.jpg",
       "SourceId": "LocationPhotoApi",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\",
       "BasePath": "_content/LocationPhotoApi",
-      "RelativePath": "photos/photo_20250518141750657#[.{fingerprint}]?.jpg",
+      "RelativePath": "photos/photo_20250528031206042#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -52,158 +52,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "iha1comwmu",
-      "Integrity": "qsiq69Gg5AT13/8xsgb9AnlNlpz2hjzF5JHCNVK3U/M=",
+      "Fingerprint": "qp93zavykv",
+      "Integrity": "7i6lGADs8ggJ4G/MAkKw/aXwWjWMsnGotDrHE7rnT5s=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\photos\\photo_20250518141750657.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photo_20250527154931595.jpg",
-      "SourceId": "LocationPhotoApi",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\",
-      "BasePath": "_content/LocationPhotoApi",
-      "RelativePath": "photos/photo_20250527154931595#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "0hbau64233",
-      "Integrity": "lM6PX3nJhPYEVQABAJds+CeCDUxh2PV5idFL3V1buic=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\photos\\photo_20250527154931595.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photo_20250527155244097.jpg",
-      "SourceId": "LocationPhotoApi",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\",
-      "BasePath": "_content/LocationPhotoApi",
-      "RelativePath": "photos/photo_20250527155244097#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "9ygdxixbos",
-      "Integrity": "70+zoorUuaXutwBxYuC4jkoyjc9kO8vhNqeU0v9rMGk=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\photos\\photo_20250527155244097.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photo_26052025170842903.jpg",
-      "SourceId": "LocationPhotoApi",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\",
-      "BasePath": "_content/LocationPhotoApi",
-      "RelativePath": "photos/photo_26052025170842903#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "a521jbgwkj",
-      "Integrity": "4j/KGROTQQHjUrCmlLV6VamZulrHh6/mvbnhDvk7T7k=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\photos\\photo_26052025170842903.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photo_26052025171446089.jpg",
-      "SourceId": "LocationPhotoApi",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\",
-      "BasePath": "_content/LocationPhotoApi",
-      "RelativePath": "photos/photo_26052025171446089#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "fiw4nqhn92",
-      "Integrity": "l2w+72HZOfhFsdkgrHARPZM3t9BaljBLCx9YEe6wVtA=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\photos\\photo_26052025171446089.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photo_27052025112521466.jpg",
-      "SourceId": "LocationPhotoApi",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\",
-      "BasePath": "_content/LocationPhotoApi",
-      "RelativePath": "photos/photo_27052025112521466#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "a5s21nqh2z",
-      "Integrity": "AsiHyBjHtWnWYWYhARhkrBYYB3YpHeqZjSfX3wkwb8E=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\photos\\photo_27052025112521466.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photo_27052025154351436.jpg",
-      "SourceId": "LocationPhotoApi",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\",
-      "BasePath": "_content/LocationPhotoApi",
-      "RelativePath": "photos/photo_27052025154351436#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "53gyhtiy8l",
-      "Integrity": "8WqQ4mmKgZU2TIoCg+/7O9auzk/pTzamc1jD7zBUR6U=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\photos\\photo_27052025154351436.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photo_27052025154515327.jpg",
-      "SourceId": "LocationPhotoApi",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\",
-      "BasePath": "_content/LocationPhotoApi",
-      "RelativePath": "photos/photo_27052025154515327#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "30uwn91mg3",
-      "Integrity": "HdUW8RfLN8Kka0H/18lPWMYlJA2kldm6xTl8J836+Yc=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\photos\\photo_27052025154515327.jpg"
+      "OriginalItemSpec": "wwwroot\\photos\\photo_20250528031206042.jpg"
     },
     {
       "Identity": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photos.json",
@@ -229,8 +82,8 @@
   ],
   "Endpoints": [
     {
-      "Route": "photos/photo_20250518141750657.iha1comwmu.jpg",
-      "AssetFile": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photo_20250518141750657.jpg",
+      "Route": "photos/photo_20250528031206042.jpg",
+      "AssetFile": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photo_20250528031206042.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -239,7 +92,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "199517"
+          "Value": "167817"
         },
         {
           "Name": "Content-Type",
@@ -247,56 +100,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"qsiq69Gg5AT13/8xsgb9AnlNlpz2hjzF5JHCNVK3U/M=\""
+          "Value": "\"7i6lGADs8ggJ4G/MAkKw/aXwWjWMsnGotDrHE7rnT5s=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 26 May 2025 09:36:46 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "iha1comwmu"
-        },
-        {
-          "Name": "label",
-          "Value": "photos/photo_20250518141750657.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-qsiq69Gg5AT13/8xsgb9AnlNlpz2hjzF5JHCNVK3U/M="
-        }
-      ]
-    },
-    {
-      "Route": "photos/photo_20250518141750657.jpg",
-      "AssetFile": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photo_20250518141750657.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "199517"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"qsiq69Gg5AT13/8xsgb9AnlNlpz2hjzF5JHCNVK3U/M=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 26 May 2025 09:36:46 GMT"
+          "Value": "Tue, 27 May 2025 20:12:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -306,13 +114,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-qsiq69Gg5AT13/8xsgb9AnlNlpz2hjzF5JHCNVK3U/M="
+          "Value": "sha256-7i6lGADs8ggJ4G/MAkKw/aXwWjWMsnGotDrHE7rnT5s="
         }
       ]
     },
     {
-      "Route": "photos/photo_20250527154931595.0hbau64233.jpg",
-      "AssetFile": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photo_20250527154931595.jpg",
+      "Route": "photos/photo_20250528031206042.qp93zavykv.jpg",
+      "AssetFile": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photo_20250528031206042.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -321,7 +129,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "86098"
+          "Value": "167817"
         },
         {
           "Name": "Content-Type",
@@ -329,11 +137,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"lM6PX3nJhPYEVQABAJds+CeCDUxh2PV5idFL3V1buic=\""
+          "Value": "\"7i6lGADs8ggJ4G/MAkKw/aXwWjWMsnGotDrHE7rnT5s=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 27 May 2025 08:49:31 GMT"
+          "Value": "Tue, 27 May 2025 20:12:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -343,544 +151,15 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "0hbau64233"
+          "Value": "qp93zavykv"
         },
         {
           "Name": "label",
-          "Value": "photos/photo_20250527154931595.jpg"
+          "Value": "photos/photo_20250528031206042.jpg"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-lM6PX3nJhPYEVQABAJds+CeCDUxh2PV5idFL3V1buic="
-        }
-      ]
-    },
-    {
-      "Route": "photos/photo_20250527154931595.jpg",
-      "AssetFile": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photo_20250527154931595.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "86098"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"lM6PX3nJhPYEVQABAJds+CeCDUxh2PV5idFL3V1buic=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 27 May 2025 08:49:31 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-lM6PX3nJhPYEVQABAJds+CeCDUxh2PV5idFL3V1buic="
-        }
-      ]
-    },
-    {
-      "Route": "photos/photo_20250527155244097.9ygdxixbos.jpg",
-      "AssetFile": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photo_20250527155244097.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "63558"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"70+zoorUuaXutwBxYuC4jkoyjc9kO8vhNqeU0v9rMGk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 27 May 2025 08:52:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "9ygdxixbos"
-        },
-        {
-          "Name": "label",
-          "Value": "photos/photo_20250527155244097.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-70+zoorUuaXutwBxYuC4jkoyjc9kO8vhNqeU0v9rMGk="
-        }
-      ]
-    },
-    {
-      "Route": "photos/photo_20250527155244097.jpg",
-      "AssetFile": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photo_20250527155244097.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "63558"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"70+zoorUuaXutwBxYuC4jkoyjc9kO8vhNqeU0v9rMGk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 27 May 2025 08:52:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-70+zoorUuaXutwBxYuC4jkoyjc9kO8vhNqeU0v9rMGk="
-        }
-      ]
-    },
-    {
-      "Route": "photos/photo_26052025170842903.a521jbgwkj.jpg",
-      "AssetFile": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photo_26052025170842903.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "199476"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"4j/KGROTQQHjUrCmlLV6VamZulrHh6/mvbnhDvk7T7k=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 26 May 2025 10:08:42 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "a521jbgwkj"
-        },
-        {
-          "Name": "label",
-          "Value": "photos/photo_26052025170842903.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-4j/KGROTQQHjUrCmlLV6VamZulrHh6/mvbnhDvk7T7k="
-        }
-      ]
-    },
-    {
-      "Route": "photos/photo_26052025170842903.jpg",
-      "AssetFile": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photo_26052025170842903.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "199476"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"4j/KGROTQQHjUrCmlLV6VamZulrHh6/mvbnhDvk7T7k=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 26 May 2025 10:08:42 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-4j/KGROTQQHjUrCmlLV6VamZulrHh6/mvbnhDvk7T7k="
-        }
-      ]
-    },
-    {
-      "Route": "photos/photo_26052025171446089.fiw4nqhn92.jpg",
-      "AssetFile": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photo_26052025171446089.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "199443"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"l2w+72HZOfhFsdkgrHARPZM3t9BaljBLCx9YEe6wVtA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 26 May 2025 10:14:46 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "fiw4nqhn92"
-        },
-        {
-          "Name": "label",
-          "Value": "photos/photo_26052025171446089.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-l2w+72HZOfhFsdkgrHARPZM3t9BaljBLCx9YEe6wVtA="
-        }
-      ]
-    },
-    {
-      "Route": "photos/photo_26052025171446089.jpg",
-      "AssetFile": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photo_26052025171446089.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "199443"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"l2w+72HZOfhFsdkgrHARPZM3t9BaljBLCx9YEe6wVtA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 26 May 2025 10:14:46 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-l2w+72HZOfhFsdkgrHARPZM3t9BaljBLCx9YEe6wVtA="
-        }
-      ]
-    },
-    {
-      "Route": "photos/photo_27052025112521466.a5s21nqh2z.jpg",
-      "AssetFile": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photo_27052025112521466.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "69977"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"AsiHyBjHtWnWYWYhARhkrBYYB3YpHeqZjSfX3wkwb8E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 27 May 2025 04:25:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "a5s21nqh2z"
-        },
-        {
-          "Name": "label",
-          "Value": "photos/photo_27052025112521466.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-AsiHyBjHtWnWYWYhARhkrBYYB3YpHeqZjSfX3wkwb8E="
-        }
-      ]
-    },
-    {
-      "Route": "photos/photo_27052025112521466.jpg",
-      "AssetFile": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photo_27052025112521466.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "69977"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"AsiHyBjHtWnWYWYhARhkrBYYB3YpHeqZjSfX3wkwb8E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 27 May 2025 04:25:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-AsiHyBjHtWnWYWYhARhkrBYYB3YpHeqZjSfX3wkwb8E="
-        }
-      ]
-    },
-    {
-      "Route": "photos/photo_27052025154351436.53gyhtiy8l.jpg",
-      "AssetFile": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photo_27052025154351436.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "88489"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"8WqQ4mmKgZU2TIoCg+/7O9auzk/pTzamc1jD7zBUR6U=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 27 May 2025 08:43:51 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "53gyhtiy8l"
-        },
-        {
-          "Name": "label",
-          "Value": "photos/photo_27052025154351436.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-8WqQ4mmKgZU2TIoCg+/7O9auzk/pTzamc1jD7zBUR6U="
-        }
-      ]
-    },
-    {
-      "Route": "photos/photo_27052025154351436.jpg",
-      "AssetFile": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photo_27052025154351436.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "88489"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"8WqQ4mmKgZU2TIoCg+/7O9auzk/pTzamc1jD7zBUR6U=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 27 May 2025 08:43:51 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-8WqQ4mmKgZU2TIoCg+/7O9auzk/pTzamc1jD7zBUR6U="
-        }
-      ]
-    },
-    {
-      "Route": "photos/photo_27052025154515327.30uwn91mg3.jpg",
-      "AssetFile": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photo_27052025154515327.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "92889"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"HdUW8RfLN8Kka0H/18lPWMYlJA2kldm6xTl8J836+Yc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 27 May 2025 08:45:15 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "30uwn91mg3"
-        },
-        {
-          "Name": "label",
-          "Value": "photos/photo_27052025154515327.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-HdUW8RfLN8Kka0H/18lPWMYlJA2kldm6xTl8J836+Yc="
-        }
-      ]
-    },
-    {
-      "Route": "photos/photo_27052025154515327.jpg",
-      "AssetFile": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photo_27052025154515327.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "92889"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"HdUW8RfLN8Kka0H/18lPWMYlJA2kldm6xTl8J836+Yc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 27 May 2025 08:45:15 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-HdUW8RfLN8Kka0H/18lPWMYlJA2kldm6xTl8J836+Yc="
+          "Value": "sha256-7i6lGADs8ggJ4G/MAkKw/aXwWjWMsnGotDrHE7rnT5s="
         }
       ]
     },

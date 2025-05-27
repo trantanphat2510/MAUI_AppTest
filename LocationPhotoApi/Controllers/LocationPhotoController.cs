@@ -3,8 +3,8 @@ using YourNamespace.Models;
 using System.IO;
 using System;
 using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
 using LocationPhotoApi.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace YourNamespace.Controllers
 {
@@ -14,11 +14,13 @@ namespace YourNamespace.Controllers
     {
         private readonly AppDbContext _context;
         private readonly string photosFolder;
+        private readonly string photosFolderUrl;
 
         public LocationPhotoController(AppDbContext context)
         {
             _context = context;
             photosFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "photos");
+            photosFolderUrl = "/photos"; // URL base ?? truy c?p ?nh
 
             if (!Directory.Exists(photosFolder))
                 Directory.CreateDirectory(photosFolder);
@@ -34,10 +36,16 @@ namespace YourNamespace.Controllers
             {
                 byte[] imageBytes = Convert.FromBase64String(request.ImageBase64);
 
+                string fileName = $"photo_{DateTime.Now:yyyyMMddHHmmssfff}.jpg";
+                string filePath = Path.Combine(photosFolder, fileName);
+
+                // L?u file ?nh vào th? m?c wwwroot/photos
+                await System.IO.File.WriteAllBytesAsync(filePath, imageBytes);
+
                 var photoInfo = new PhotoInfo
                 {
-                    FileName = $"photo_{DateTime.Now:yyyyMMddHHmmssfff}.jpg",
-                    ImageData = imageBytes,
+                    FileName = fileName,
+                    ImagePath = $"{photosFolderUrl}/{fileName}", // l?u ???ng d?n ?nh t??ng ??i
                     Latitude = request.Latitude,
                     Longitude = request.Longitude,
                     Timestamp = DateTime.Now
@@ -46,7 +54,12 @@ namespace YourNamespace.Controllers
                 _context.PhotoInfos.Add(photoInfo);
                 await _context.SaveChangesAsync();
 
-                return Ok(new { Message = "Photo saved in DB", PhotoId = photoInfo.Id });
+                return Ok(new
+                {
+                    Message = "Photo saved in file system and DB",
+                    PhotoId = photoInfo.Id,
+                    PhotoUrl = photoInfo.ImagePath // tr? URL ?nh cho client
+                });
             }
             catch (Exception ex)
             {
@@ -67,6 +80,5 @@ namespace YourNamespace.Controllers
                 return StatusCode(500, $"Error: {ex.Message}");
             }
         }
-
     }
 }

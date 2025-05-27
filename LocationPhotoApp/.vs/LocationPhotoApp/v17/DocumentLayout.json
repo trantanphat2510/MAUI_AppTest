@@ -70,21 +70,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ExceptionHelpers.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\AppData\\Local\\Temp\\.vsdbgsrc\\ca42820ccd9321605a3a50302a9ea1e8fbd48c0afcd8e6e685de617606ff711c\\ExceptionHelpers.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\ca42820ccd9321605a3a50302a9ea1e8fbd48c0afcd8e6e685de617606ff711c\\ExceptionHelpers.cs",
-              "ToolTip": "C:\\Users\\admin\\AppData\\Local\\Temp\\.vsdbgsrc\\ca42820ccd9321605a3a50302a9ea1e8fbd48c0afcd8e6e685de617606ff711c\\ExceptionHelpers.cs [Read Only]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\ca42820ccd9321605a3a50302a9ea1e8fbd48c0afcd8e6e685de617606ff711c\\ExceptionHelpers.cs [Read Only]",
-              "ViewState": "AgIAAHsAAAAAAAAAAAAMwIUAAAADAAAAAQAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T18:44:12.841Z",
-              "EditorCaption": " [Read Only]"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -129,10 +116,9 @@
               "RelativeDocumentMoniker": "LocationPhotoApp\\MainPage.xaml.cs",
               "ToolTip": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApp\\LocationPhotoApp\\MainPage.xaml.cs",
               "RelativeToolTip": "LocationPhotoApp\\MainPage.xaml.cs",
-              "ViewState": "AgIAAOoAAAAAAAAAAABQPbAAAABIAAAAAAAAAA==",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAgwKIAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T08:48:14.044Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-17T08:48:14.044Z"
             },
             {
               "$type": "Document",
@@ -142,10 +128,23 @@
               "RelativeDocumentMoniker": "LocationPhotoApp\\MainPage.xaml",
               "ToolTip": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApp\\LocationPhotoApp\\MainPage.xaml",
               "RelativeToolTip": "LocationPhotoApp\\MainPage.xaml",
-              "ViewState": "AgIAAGcAAAAAAAAAAAAwwHQAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAALIAAAAAAAAAAAAwwNIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-05-17T08:47:55.915Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ExceptionHelpers.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\AppData\\Local\\Temp\\.vsdbgsrc\\ca42820ccd9321605a3a50302a9ea1e8fbd48c0afcd8e6e685de617606ff711c\\ExceptionHelpers.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\ca42820ccd9321605a3a50302a9ea1e8fbd48c0afcd8e6e685de617606ff711c\\ExceptionHelpers.cs",
+              "ToolTip": "C:\\Users\\admin\\AppData\\Local\\Temp\\.vsdbgsrc\\ca42820ccd9321605a3a50302a9ea1e8fbd48c0afcd8e6e685de617606ff711c\\ExceptionHelpers.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\ca42820ccd9321605a3a50302a9ea1e8fbd48c0afcd8e6e685de617606ff711c\\ExceptionHelpers.cs [Read Only]",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAMwIUAAAADAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T18:44:12.841Z",
+              "EditorCaption": " [Read Only]"
             },
             {
               "$type": "Document",

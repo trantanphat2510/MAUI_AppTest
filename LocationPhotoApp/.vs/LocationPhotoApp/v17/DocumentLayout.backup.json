@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{33A833C1-662F-4156-BDEB-4A0032800CF4}|LocationPhotoApp\\LocationPhotoApp.csproj|c:\\users\\admin\\desktop\\code\\maui\\maui_apptest\\locationphotoapp\\locationphotoapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{33A833C1-662F-4156-BDEB-4A0032800CF4}|LocationPhotoApp\\LocationPhotoApp.csproj|solutionrelative:locationphotoapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{33A833C1-662F-4156-BDEB-4A0032800CF4}|LocationPhotoApp\\LocationPhotoApp.csproj|c:\\users\\admin\\desktop\\code\\maui\\maui_apptest\\locationphotoapp\\locationphotoapp\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33A833C1-662F-4156-BDEB-4A0032800CF4}|LocationPhotoApp\\LocationPhotoApp.csproj|solutionrelative:locationphotoapp\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -16,10 +20,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{33A833C1-662F-4156-BDEB-4A0032800CF4}|LocationPhotoApp\\LocationPhotoApp.csproj|c:\\users\\admin\\desktop\\code\\maui\\maui_apptest\\locationphotoapp\\locationphotoapp\\models\\locationphotorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33A833C1-662F-4156-BDEB-4A0032800CF4}|LocationPhotoApp\\LocationPhotoApp.csproj|solutionrelative:locationphotoapp\\models\\locationphotorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33A833C1-662F-4156-BDEB-4A0032800CF4}|LocationPhotoApp\\LocationPhotoApp.csproj|c:\\users\\admin\\desktop\\code\\maui\\maui_apptest\\locationphotoapp\\locationphotoapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{33A833C1-662F-4156-BDEB-4A0032800CF4}|LocationPhotoApp\\LocationPhotoApp.csproj|solutionrelative:locationphotoapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApp\\LocationPhotoApp\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -75,6 +75,67 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "QRCodeDataRequest.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApp\\LocationPhotoApp\\Models\\QRCodeDataRequest.cs",
+              "RelativeDocumentMoniker": "LocationPhotoApp\\Models\\QRCodeDataRequest.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApp\\LocationPhotoApp\\Models\\QRCodeDataRequest.cs",
+              "RelativeToolTip": "LocationPhotoApp\\Models\\QRCodeDataRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T18:15:34.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.g.i.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApp\\LocationPhotoApp\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeDocumentMoniker": "LocationPhotoApp\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApp\\LocationPhotoApp\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeToolTip": "LocationPhotoApp\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAQwEEAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T17:52:19.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainActivity.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApp\\LocationPhotoApp\\Platforms\\Android\\MainActivity.cs",
+              "RelativeDocumentMoniker": "LocationPhotoApp\\Platforms\\Android\\MainActivity.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApp\\LocationPhotoApp\\Platforms\\Android\\MainActivity.cs",
+              "RelativeToolTip": "LocationPhotoApp\\Platforms\\Android\\MainActivity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T08:56:13.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApp\\LocationPhotoApp\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "LocationPhotoApp\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApp\\LocationPhotoApp\\MainPage.xaml.cs",
+              "RelativeToolTip": "LocationPhotoApp\\MainPage.xaml.cs",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAgwKIAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T08:48:14.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApp\\LocationPhotoApp\\MainPage.xaml",
+              "RelativeDocumentMoniker": "LocationPhotoApp\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApp\\LocationPhotoApp\\MainPage.xaml",
+              "RelativeToolTip": "LocationPhotoApp\\MainPage.xaml",
+              "ViewState": "AgIAALIAAAAAAAAAAAAwwNIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-17T08:47:55.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ExceptionHelpers.cs",
               "DocumentMoniker": "C:\\Users\\admin\\AppData\\Local\\Temp\\.vsdbgsrc\\ca42820ccd9321605a3a50302a9ea1e8fbd48c0afcd8e6e685de617606ff711c\\ExceptionHelpers.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\ca42820ccd9321605a3a50302a9ea1e8fbd48c0afcd8e6e685de617606ff711c\\ExceptionHelpers.cs",
@@ -87,71 +148,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "QRCodeDataRequest.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApp\\LocationPhotoApp\\Models\\QRCodeDataRequest.cs",
-              "RelativeDocumentMoniker": "LocationPhotoApp\\Models\\QRCodeDataRequest.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApp\\LocationPhotoApp\\Models\\QRCodeDataRequest.cs",
-              "RelativeToolTip": "LocationPhotoApp\\Models\\QRCodeDataRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T18:15:34.72Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "App.g.i.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApp\\LocationPhotoApp\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
-              "RelativeDocumentMoniker": "LocationPhotoApp\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApp\\LocationPhotoApp\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
-              "RelativeToolTip": "LocationPhotoApp\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAQwEEAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T17:52:19.08Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MainActivity.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApp\\LocationPhotoApp\\Platforms\\Android\\MainActivity.cs",
-              "RelativeDocumentMoniker": "LocationPhotoApp\\Platforms\\Android\\MainActivity.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApp\\LocationPhotoApp\\Platforms\\Android\\MainActivity.cs",
-              "RelativeToolTip": "LocationPhotoApp\\Platforms\\Android\\MainActivity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T08:56:13.108Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApp\\LocationPhotoApp\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "LocationPhotoApp\\MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApp\\LocationPhotoApp\\MainPage.xaml.cs",
-              "RelativeToolTip": "LocationPhotoApp\\MainPage.xaml.cs",
-              "ViewState": "AgIAAKwAAAAAAAAAAAAYwL8AAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T08:48:14.044Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApp\\LocationPhotoApp\\MainPage.xaml",
-              "RelativeDocumentMoniker": "LocationPhotoApp\\MainPage.xaml",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApp\\LocationPhotoApp\\MainPage.xaml",
-              "RelativeToolTip": "LocationPhotoApp\\MainPage.xaml",
-              "ViewState": "AgIAAIQAAAAAAAAAAAAWwJEAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-17T08:47:55.915Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 7,
               "Title": "MauiProgram.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApp\\LocationPhotoApp\\MauiProgram.cs",
@@ -160,8 +156,7 @@
               "RelativeToolTip": "LocationPhotoApp\\MauiProgram.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T06:44:26.145Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-18T06:44:26.145Z"
             },
             {
               "$type": "Document",
@@ -173,12 +168,11 @@
               "RelativeToolTip": "LocationPhotoApp\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-17T11:05:10.72Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-17T11:05:10.72Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "LocationPhotoRequest.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApp\\LocationPhotoApp\\Models\\LocationPhotoRequest.cs",
               "RelativeDocumentMoniker": "LocationPhotoApp\\Models\\LocationPhotoRequest.cs",
@@ -186,8 +180,7 @@
               "RelativeToolTip": "LocationPhotoApp\\Models\\LocationPhotoRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T08:52:09.429Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-17T08:52:09.429Z"
             },
             {
               "$type": "Document",
@@ -199,8 +192,7 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\64f05ffaac1b943c643dea91a1cc71e2783f3419\\MainPage.xaml.sg.cs",
               "ViewState": "AgIAACsAAAAAAAAAAAAIwCoAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T09:52:57.543Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T09:52:57.543Z"
             },
             {
               "$type": "Document",
@@ -212,8 +204,7 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\77af9c68962540f238d220c3074934bb38d1da68\\MainPage.xaml.sg.cs",
               "ViewState": "AgIAADUAAAAAAAAAAAAIwDoAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T09:56:23.213Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T09:56:23.213Z"
             },
             {
               "$type": "Document",
@@ -225,8 +216,7 @@
               "RelativeToolTip": "LocationPhotoApp\\Platforms\\Android\\MainApplication.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T06:16:33.515Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-18T06:16:33.515Z"
             },
             {
               "$type": "Document",
@@ -238,8 +228,7 @@
               "RelativeToolTip": "LocationPhotoApp\\Platforms\\Android\\AndroidManifest.xml",
               "ViewState": "AgIAAAEAAAAAAAAAAADwvxAAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2025-05-18T06:14:56.906Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-18T06:14:56.906Z"
             },
             {
               "$type": "Document",
@@ -250,8 +239,7 @@
               "ToolTip": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApp\\LocationPhotoApp\\LocationPhotoApp.csproj",
               "RelativeToolTip": "LocationPhotoApp\\LocationPhotoApp.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-17T11:05:00.82Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-17T11:05:00.82Z"
             },
             {
               "$type": "Document",
@@ -263,8 +251,7 @@
               "RelativeToolTip": "LocationPhotoApp\\LocationPhotoApp.csproj",
               "ViewState": "AgIAAAIAAAAAAAAAAAAswBIAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-17T08:45:08.988Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-17T08:45:08.988Z"
             },
             {
               "$type": "Document",
@@ -276,8 +263,7 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\.nuget\\packages\\communitytoolkit.maui\\11.2.0\\ReadMe.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-05-17T08:44:27.264Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-17T08:44:27.264Z"
             }
           ]
         }
