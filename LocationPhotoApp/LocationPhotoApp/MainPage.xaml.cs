@@ -1,16 +1,26 @@
-﻿using Microsoft.Maui.Controls;
+﻿using LocationPhotoApp.Models;
+using Microsoft.Maui.Controls;
+using Microsoft.Maui.Devices.Sensors;
 using Microsoft.Maui.Media;
 using System;
+using System.Diagnostics;
 using System.IO;
 using System.Net.Http;
 using System.Net.Http.Json;
+using System.Text.Json;
+using System.Text;
 using System.Threading.Tasks;
+using ZXing;
 
 namespace LocationPhotoApp;
 
 public partial class MainPage : ContentPage
 {
-    public MainPage() => InitializeComponent();
+    public MainPage()
+    {
+        InitializeComponent();
+        
+    }
 
     private async void OnTakePhotoClicked(object sender, EventArgs e)
     {
@@ -106,7 +116,8 @@ public partial class MainPage : ContentPage
         try
         {
             using var client = new HttpClient();
-            var response = await client.PostAsJsonAsync("http://10.0.2.2:5273/api/locationphoto", request);
+            //10.0.2.2:5273 localhost:5273
+            var response = await client.PostAsJsonAsync("http://localhost:5273/api/locationphoto", request);
 
             if (response.IsSuccessStatusCode)
                 return true;
@@ -121,18 +132,103 @@ public partial class MainPage : ContentPage
             return false;
         }
     }
-}
 
-public class LocationPhotoRequest
-{
-    public string ImageBase64 { get; set; }
-    public double Latitude { get; set; }
-    public double Longitude { get; set; }
-
-    public LocationPhotoRequest(string imageBase64, double latitude, double longitude)
+    private async void OnScanQRCodeClicked(object sender, EventArgs e)
     {
-        ImageBase64 = imageBase64;
-        Latitude = latitude;
-        Longitude = longitude;
+        try
+        {
+            // Kiểm tra quyền vị trí
+            bool hasLocationPermission = await CheckAndRequestPermission<Permissions.LocationWhenInUse>("vị trí");
+            if (!hasLocationPermission)
+                return;
+
+            // Lấy vị trí hiện tại
+            var location = await GetCurrentLocationAsync();
+            if (location == null)
+            {
+                await DisplayAlert("Lỗi", "Không lấy được vị trí GPS", "OK");
+                return;
+            }
+            locationLabel.Text = $"Vị trí: Lat {location.Latitude}, Lon {location.Longitude}";
+
+            var scanPage = new ZXing.Net.Maui.Controls.CameraBarcodeReaderView
+            {
+                IsDetecting = true,
+                HorizontalOptions = LayoutOptions.FillAndExpand,
+                VerticalOptions = LayoutOptions.FillAndExpand
+            };
+
+            var overlay = new ContentPage { Content = scanPage };
+
+            EventHandler<ZXing.Net.Maui.BarcodeDetectionEventArgs> handler = null;
+
+            handler = async (s, args) =>
+            {
+                if (args?.Results?.Any() == true)
+                {
+                    scanPage.IsDetecting = false;
+                    scanPage.BarcodesDetected -= handler;
+
+                    var result = args.Results.FirstOrDefault();
+                    if (result == null) return;
+
+                    var text = result.Value;
+
+                    await MainThread.InvokeOnMainThreadAsync(async () =>
+                    {
+                        qrResultLabel.Text = $"📌 QR Data: {text}";
+                        await Navigation.PopModalAsync();
+
+                        statusLabel.Text = "Đang gửi dữ liệu QR đến server...";
+                    });
+
+                    // Gửi dữ liệu QR và vị trí lên server
+                    var isSuccess = await SendQRCodeDataToServerAsync(text, location.Latitude, location.Longitude);
+
+                    await MainThread.InvokeOnMainThreadAsync(() =>
+                    {
+                        statusLabel.Text = isSuccess ? "✅ Gửi dữ liệu QR thành công!" : "❌ Gửi dữ liệu QR thất bại!";
+                    });
+                }
+            };
+
+            scanPage.BarcodesDetected += handler;
+
+            await Navigation.PushModalAsync(overlay);
+        }
+        catch (Exception ex)
+        {
+            await DisplayAlert("Lỗi", ex.Message, "OK");
+        }
     }
+
+    private async Task<bool> SendQRCodeDataToServerAsync(string qrText, double latitude, double longitude)
+    {
+        try
+        {
+            var httpClient = new HttpClient();
+            var url = "http://localhost:5273/api/qrcodedata"; // Replace with your API URL
+
+            var data = new
+            {
+                QrCode = qrText,
+                Latitude = latitude,
+                Longitude = longitude,
+                Timestamp = DateTime.UtcNow
+            };
+
+            var json = JsonSerializer.Serialize(data);
+            var content = new StringContent(json, Encoding.UTF8, "application/json");
+
+            var response = await httpClient.PostAsync(url, content);
+            return response.IsSuccessStatusCode;
+        }
+        catch
+        {
+            return false;
+        }
+    }
+
 }
+
+

@@ -1,8 +1,40 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\admin\\Desktop\\code\\MAUI\\AppTest\\LocationPhotoApi\\wwwroot\\photos\\photo_20250518141750657.jpg",
+      "Id": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photo_20250518141750657.jpg",
       "PackagePath": "staticwebassets\\photos\\photo_20250518141750657.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photo_20250527154931595.jpg",
+      "PackagePath": "staticwebassets\\photos\\photo_20250527154931595.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photo_20250527155244097.jpg",
+      "PackagePath": "staticwebassets\\photos\\photo_20250527155244097.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photo_26052025170842903.jpg",
+      "PackagePath": "staticwebassets\\photos\\photo_26052025170842903.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photo_26052025171446089.jpg",
+      "PackagePath": "staticwebassets\\photos\\photo_26052025171446089.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photo_27052025112521466.jpg",
+      "PackagePath": "staticwebassets\\photos\\photo_27052025112521466.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photo_27052025154351436.jpg",
+      "PackagePath": "staticwebassets\\photos\\photo_27052025154351436.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photo_27052025154515327.jpg",
+      "PackagePath": "staticwebassets\\photos\\photo_27052025154515327.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photos.json",
+      "PackagePath": "staticwebassets\\photos\\photos.json"
     },
     {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.LocationPhotoApi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

@@ -1,110 +1,72 @@
 using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
+using YourNamespace.Models;
 using System.IO;
-using System.Text.Json;
+using System;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using LocationPhotoApi.Data;
 
-[ApiController]
-[Route("api/[controller]")]
-public class LocationPhotoController : ControllerBase
+namespace YourNamespace.Controllers
 {
-    private readonly string photosFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "photos");
-    private readonly string jsonFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "photos", "photos.json");
-
-    [HttpPost]
-    public async Task<IActionResult> Post([FromBody] LocationPhotoRequest request)
+    [ApiController]
+    [Route("api/[controller]")]
+    public class LocationPhotoController : ControllerBase
     {
-        if (request == null || string.IsNullOrEmpty(request.ImageBase64))
-            return BadRequest("Invalid data.");
+        private readonly AppDbContext _context;
+        private readonly string photosFolder;
 
-        try
+        public LocationPhotoController(AppDbContext context)
         {
-            // Decode base64 string
-            byte[] imageBytes = Convert.FromBase64String(request.ImageBase64);
+            _context = context;
+            photosFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "photos");
 
-            // Tạo thư mục lưu ảnh nếu chưa tồn tại
             if (!Directory.Exists(photosFolder))
                 Directory.CreateDirectory(photosFolder);
+        }
 
-            // Tạo tên file ảnh
-            var fileName = $"photo_{DateTime.Now:ddMMyyyyHHmmssfff}.jpg";
-            var filePath = Path.Combine(photosFolder, fileName);
+        [HttpPost]
+        public async Task<IActionResult> Post([FromBody] LocationPhotoRequest request)
+        {
+            if (request == null || string.IsNullOrEmpty(request.ImageBase64))
+                return BadRequest("Invalid data.");
 
-            // Lưu file ảnh
-            await System.IO.File.WriteAllBytesAsync(filePath, imageBytes);
-
-            // Tạo đối tượng lưu thông tin ảnh
-            var photoInfo = new PhotoInfo
+            try
             {
-                FileName = fileName,
-                Latitude = request.Latitude,
-                Longitude = request.Longitude,
-                Timestamp = DateTime.Now
-            };
+                byte[] imageBytes = Convert.FromBase64String(request.ImageBase64);
 
-            // Đọc danh sách hiện có từ file JSON hoặc tạo mới nếu chưa có
-            List<PhotoInfo> photosList;
-            if (System.IO.File.Exists(jsonFilePath))
-            {
-                var jsonData = await System.IO.File.ReadAllTextAsync(jsonFilePath);
-                photosList = JsonSerializer.Deserialize<List<PhotoInfo>>(jsonData) ?? new List<PhotoInfo>();
+                var photoInfo = new PhotoInfo
+                {
+                    FileName = $"photo_{DateTime.Now:yyyyMMddHHmmssfff}.jpg",
+                    ImageData = imageBytes,
+                    Latitude = request.Latitude,
+                    Longitude = request.Longitude,
+                    Timestamp = DateTime.Now
+                };
+
+                _context.PhotoInfos.Add(photoInfo);
+                await _context.SaveChangesAsync();
+
+                return Ok(new { Message = "Photo saved in DB", PhotoId = photoInfo.Id });
             }
-            else
+            catch (Exception ex)
             {
-                photosList = new List<PhotoInfo>();
+                return StatusCode(500, $"Server error: {ex.Message}");
             }
-
-            // Thêm bản ghi mới
-            photosList.Add(photoInfo);
-
-            // Ghi lại file JSON
-            var newJson = JsonSerializer.Serialize(photosList, new JsonSerializerOptions { WriteIndented = true });
-            await System.IO.File.WriteAllTextAsync(jsonFilePath, newJson);
-
-            // Log
-            Console.WriteLine($"Received photo {fileName} at location: Lat={request.Latitude}, Lon={request.Longitude}");
-
-            // Trả về thành công kèm tên file
-            return Ok(new { Message = "Photo and location received", FileName = fileName });
         }
-        catch (Exception ex)
+
+        [HttpGet]
+        public async Task<IActionResult> GetAllPhotos()
         {
-            return StatusCode(500, ex.Message);
+            try
+            {
+                var photos = await _context.PhotoInfos.ToListAsync();
+                return Ok(photos);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Error: {ex.Message}");
+            }
         }
+
     }
-
-    [HttpGet]
-    public async Task<IActionResult> GetAllPhotos()
-    {
-        try
-        {
-            if (!System.IO.File.Exists(jsonFilePath))
-                return Ok(new List<PhotoInfo>()); // Trả về danh sách rỗng nếu chưa có file
-
-            var jsonData = await System.IO.File.ReadAllTextAsync(jsonFilePath);
-            var photosList = JsonSerializer.Deserialize<List<PhotoInfo>>(jsonData) ?? new List<PhotoInfo>();
-
-            return Ok(photosList);
-        }
-        catch (Exception ex)
-        {
-            return StatusCode(500, ex.Message);
-        }
-    }
-}
-
-public class LocationPhotoRequest
-{
-    public string ImageBase64 { get; set; }
-    public double Latitude { get; set; }
-    public double Longitude { get; set; }
-}
-
-public class PhotoInfo
-{
-    public string FileName { get; set; }
-    public double Latitude { get; set; }
-    public double Longitude { get; set; }
-    public DateTime Timestamp { get; set; }
 }

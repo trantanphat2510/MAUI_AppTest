@@ -1,0 +1,44 @@
+[
+  {
+    "ContainingType": "YourNamespace.Controllers.LocationPhotoController",
+    "Method": "Post",
+    "RelativePath": "api/LocationPhoto",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "YourNamespace.Models.LocationPhotoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "YourNamespace.Controllers.LocationPhotoController",
+    "Method": "GetAllPhotos",
+    "RelativePath": "api/LocationPhoto",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LocationPhotoApi.Controllers.QrCodeDataController",
+    "Method": "Post",
+    "RelativePath": "api/qrcodedata",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "LocationPhotoApi.Models.QRCodeData",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
