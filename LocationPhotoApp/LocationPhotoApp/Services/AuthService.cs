@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Net.Http.Headers;
 using System.Net.Http.Json;
@@ -17,7 +18,7 @@ namespace LocationPhotoApp.Services
 
         public AuthService()
         {
-            _httpClient = new HttpClient { BaseAddress = new Uri("http://10.0.2.2:5273/") };
+            _httpClient = new HttpClient { BaseAddress = new Uri("http://localhost:5273/") };
         }
 
         // Đăng ký người dùng mới
@@ -71,8 +72,23 @@ namespace LocationPhotoApp.Services
         public async Task LogoutAsync()
         {
             JwtToken = null;
-            await SecureStorage.SetAsync("jwt_token", string.Empty);
-            _httpClient.DefaultRequestHeaders.Authorization = null;
+
+            try
+            {
+                // Xóa token khỏi SecureStorage
+                SecureStorage.Remove("jwt_token");
+            }
+            catch (Exception ex)
+            {
+                // Ghi log nếu có lỗi xảy ra (tùy chọn)
+                Debug.WriteLine($"Error removing token from SecureStorage: {ex.Message}");
+            }
+
+            // Xóa header Authorization nếu tồn tại
+            if (_httpClient.DefaultRequestHeaders.Contains("Authorization"))
+            {
+                _httpClient.DefaultRequestHeaders.Remove("Authorization");
+            }
         }
 
         // Tải lại token nếu có (khi mở lại app)

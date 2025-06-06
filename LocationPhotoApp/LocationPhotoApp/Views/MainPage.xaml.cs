@@ -117,7 +117,7 @@ public partial class MainPage : ContentPage
         {
             using var client = new HttpClient();
             //10.0.2.2:5273 localhost:5273
-            var response = await client.PostAsJsonAsync("http://10.0.2.2:5273/api/locationphoto", request);
+            var response = await client.PostAsJsonAsync("http://localhost:5273/api/locationphoto", request);
 
             if (response.IsSuccessStatusCode)
                 return true;
@@ -207,7 +207,7 @@ public partial class MainPage : ContentPage
         try
         {
             var httpClient = new HttpClient();
-            var url = "http://10.0.2.2:5273/api/qrcodedata";
+            var url = "http://localhost:5273/api/qrcodedata";
 
             var data = new
             {

@@ -70,7 +70,7 @@
   {
     "ContainingType": "LocationPhotoApi.Controllers.QrCodeDataController",
     "Method": "Post",
-    "RelativePath": "api/qrcodedata",
+    "RelativePath": "api/QrCodeData",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
