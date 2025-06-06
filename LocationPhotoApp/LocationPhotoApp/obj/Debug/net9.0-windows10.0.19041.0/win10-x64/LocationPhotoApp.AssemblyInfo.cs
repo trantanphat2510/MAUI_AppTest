@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LocationPhotoApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+17754290410fcacd7e1d0ed5165e4c2b7d480fa6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+aec1596097163ab721ce6dc4ae220ef58e50ee81")]
 [assembly: System.Reflection.AssemblyProductAttribute("LocationPhotoApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LocationPhotoApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

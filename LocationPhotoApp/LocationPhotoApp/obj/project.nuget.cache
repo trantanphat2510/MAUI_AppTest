@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dCSCfwCdEXs=",
+  "dgSpecHash": "VDR45/GCGgg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApp\\LocationPhotoApp\\LocationPhotoApp.csproj",
+  "projectFilePath": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApp\\LocationPhotoApp\\LocationPhotoApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\googlegson\\2.11.0.5\\googlegson.2.11.0.5.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.0\\microsoft.extensions.configuration.9.0.0.nupkg.sha512",

@@ -1,0 +1,2 @@
+C:\Users\admin\Desktop\code\clone1\MAUI_AppTest\LocationPhotoApi\wwwroot\photos\photo_20250528031206042.jpg
+C:\Users\admin\Desktop\code\clone1\MAUI_AppTest\LocationPhotoApi\wwwroot\photos\photos.json

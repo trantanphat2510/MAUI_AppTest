@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LRv1RtpS8og=",
+  "dgSpecHash": "QY/Ixv5pjk8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\LocationPhotoApi.csproj",
+  "projectFilePath": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\LocationPhotoApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

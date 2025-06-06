@@ -28150,11 +28150,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApp\\LocationPhotoApp\\LocationPhotoApp.csproj",
+      "projectUniqueName": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApp\\LocationPhotoApp\\LocationPhotoApp.csproj",
       "projectName": "LocationPhotoApp",
-      "projectPath": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApp\\LocationPhotoApp\\LocationPhotoApp.csproj",
+      "projectPath": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApp\\LocationPhotoApp\\LocationPhotoApp.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApp\\LocationPhotoApp\\obj\\",
+      "outputPath": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApp\\LocationPhotoApp\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
