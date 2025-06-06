@@ -1,3 +1,2 @@
-C:\Users\admin\Desktop\code\MAUI\MAUI_AppTest\LocationPhotoApi\wwwroot\photos\photos.json
-wwwroot\photos\photo_20250528031206042.jpg
-wwwroot\photos\photos.json
+wwwroot\photos\photo_20250606165848335.jpg
+wwwroot\photos\photo_20250606195939742.jpg

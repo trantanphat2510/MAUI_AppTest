@@ -1,12 +1,228 @@
 {
   "Version": 1,
-  "Hash": "ekGCdoJdNrybqjn0pMs0sslZXby+Zo124dNX5vcFtzY=",
+  "Hash": "8xgDjcePuwWLyAnlhHP+GG6vN0LSEf3V4xBiwpNlySQ=",
   "Source": "LocationPhotoApi",
   "BasePath": "_content/LocationPhotoApi",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "LocationPhotoApi\\wwwroot",
+      "Source": "LocationPhotoApi",
+      "ContentRoot": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\",
+      "BasePath": "_content/LocationPhotoApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photo_20250606165848335.jpg",
+      "SourceId": "LocationPhotoApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\",
+      "BasePath": "_content/LocationPhotoApi",
+      "RelativePath": "photos/photo_20250606165848335#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mf10ps73za",
+      "Integrity": "vh+233MuPc7X6FFF0A1WJ7EcUuM7yZbzKwQNbrqxNKo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\photos\\photo_20250606165848335.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photo_20250606195939742.jpg",
+      "SourceId": "LocationPhotoApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\",
+      "BasePath": "_content/LocationPhotoApi",
+      "RelativePath": "photos/photo_20250606195939742#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rubgduu0os",
+      "Integrity": "A+UDkYHOh3tihvfrbJU5IKF/+L2WnRwgA7L/C2Z3TAk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\photos\\photo_20250606195939742.jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "photos/photo_20250606165848335.jpg",
+      "AssetFile": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photo_20250606165848335.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "200022"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vh+233MuPc7X6FFF0A1WJ7EcUuM7yZbzKwQNbrqxNKo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 09:58:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vh+233MuPc7X6FFF0A1WJ7EcUuM7yZbzKwQNbrqxNKo="
+        }
+      ]
+    },
+    {
+      "Route": "photos/photo_20250606165848335.mf10ps73za.jpg",
+      "AssetFile": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photo_20250606165848335.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "200022"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vh+233MuPc7X6FFF0A1WJ7EcUuM7yZbzKwQNbrqxNKo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 09:58:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mf10ps73za"
+        },
+        {
+          "Name": "label",
+          "Value": "photos/photo_20250606165848335.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vh+233MuPc7X6FFF0A1WJ7EcUuM7yZbzKwQNbrqxNKo="
+        }
+      ]
+    },
+    {
+      "Route": "photos/photo_20250606195939742.jpg",
+      "AssetFile": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photo_20250606195939742.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "70613"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"A+UDkYHOh3tihvfrbJU5IKF/+L2WnRwgA7L/C2Z3TAk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 12:59:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-A+UDkYHOh3tihvfrbJU5IKF/+L2WnRwgA7L/C2Z3TAk="
+        }
+      ]
+    },
+    {
+      "Route": "photos/photo_20250606195939742.rubgduu0os.jpg",
+      "AssetFile": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photo_20250606195939742.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "70613"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"A+UDkYHOh3tihvfrbJU5IKF/+L2WnRwgA7L/C2Z3TAk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 12:59:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rubgduu0os"
+        },
+        {
+          "Name": "label",
+          "Value": "photos/photo_20250606195939742.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-A+UDkYHOh3tihvfrbJU5IKF/+L2WnRwgA7L/C2Z3TAk="
+        }
+      ]
+    }
+  ]
 }

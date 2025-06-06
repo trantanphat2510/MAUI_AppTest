@@ -369,3 +369,4 @@ C:\Users\admin\Desktop\code\clone1\MAUI_AppTest\LocationPhotoApi\obj\Debug\net9.
 C:\Users\admin\Desktop\code\clone1\MAUI_AppTest\LocationPhotoApi\obj\Debug\net9.0\LocationPhotoApi.pdb
 C:\Users\admin\Desktop\code\clone1\MAUI_AppTest\LocationPhotoApi\obj\Debug\net9.0\LocationPhotoApi.genruntimeconfig.cache
 C:\Users\admin\Desktop\code\clone1\MAUI_AppTest\LocationPhotoApi\obj\Debug\net9.0\ref\LocationPhotoApi.dll
+C:\Users\admin\Desktop\code\clone1\MAUI_AppTest\LocationPhotoApi\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

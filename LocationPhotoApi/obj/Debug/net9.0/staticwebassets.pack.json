@@ -1,12 +1,12 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photo_20250528031206042.jpg",
-      "PackagePath": "staticwebassets\\photos\\photo_20250528031206042.jpg"
+      "Id": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photo_20250606165848335.jpg",
+      "PackagePath": "staticwebassets\\photos\\photo_20250606165848335.jpg"
     },
     {
-      "Id": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photos.json",
-      "PackagePath": "staticwebassets\\photos\\photos.json"
+      "Id": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photo_20250606195939742.jpg",
+      "PackagePath": "staticwebassets\\photos\\photo_20250606195939742.jpg"
     },
     {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.LocationPhotoApi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

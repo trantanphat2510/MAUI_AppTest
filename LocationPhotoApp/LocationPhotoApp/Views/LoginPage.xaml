@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LocationPhotoApp.Views.LoginPage"
+             Title="LoginPage">
+    <StackLayout Padding="20" VerticalOptions="Center">
+        <Entry x:Name="emailEntry" Placeholder="Email" Keyboard="Email" />
+        <Entry x:Name="passwordEntry" Placeholder="Mật khẩu" IsPassword="True" />
+        <Button Text="Đăng nhập" Clicked="OnLoginClicked" />
+    </StackLayout>
+</ContentPage>

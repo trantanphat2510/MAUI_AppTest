@@ -9,5 +9,6 @@ namespace LocationPhotoApi.Data
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
         public DbSet<PhotoInfo> PhotoInfos { get; set; }
         public DbSet<QRCodeData> QRCodeDatas { get; set; }
-    }
+        public DbSet<User> Users { get; set; }
+    }   
 }

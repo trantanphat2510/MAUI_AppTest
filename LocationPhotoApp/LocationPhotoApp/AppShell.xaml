@@ -12,16 +12,21 @@
     Shell.TabBarTitleColor="#2F80ED"
     Shell.TabBarUnselectedColor="#B0BEC5">
 
-        <ShellContent 
-        Title="Chụp ảnh" 
-        Icon="camera.svg" 
-        ContentTemplate="{DataTemplate views:MainPage}" />
-        
-        <ShellContent 
-        Title="Hồ sơ" 
-        Icon="profile.svg" 
-        ContentTemplate="{DataTemplate views:ProfilePage}" />
+        <Tab Title="Chụp ảnh" Icon="camera.svg" Shell.NavBarIsVisible="True">
+            <ShellContent ContentTemplate="{DataTemplate views:MainPage}" />
+        </Tab>
+
+        <Tab Title="Hồ sơ" Icon="profile.svg" Shell.NavBarIsVisible="True">
+            <ShellContent ContentTemplate="{DataTemplate views:ProfilePage}" />
+        </Tab>
 
     </TabBar>
+
+    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent 
+            Title="Đăng nhập" 
+            Route="LoginPage" 
+            ContentTemplate="{DataTemplate views:LoginPage}" />
+    </FlyoutItem>
 
 </Shell>

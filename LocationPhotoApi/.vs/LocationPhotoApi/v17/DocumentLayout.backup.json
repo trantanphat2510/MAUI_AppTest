@@ -3,52 +3,84 @@
   "WorkspaceRootPath": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\Migrations\\20250606094403_IntialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250606094403_IntialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{964E5DE4-C1C9-D92B-6420-5FEE6D38BD72}|LocationPhotoApi.csproj|c:\\users\\admin\\desktop\\code\\clone1\\maui_apptest\\locationphotoapi\\data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{964E5DE4-C1C9-D92B-6420-5FEE6D38BD72}|LocationPhotoApi.csproj|solutionrelative:data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{964E5DE4-C1C9-D92B-6420-5FEE6D38BD72}|LocationPhotoApi.csproj|c:\\users\\admin\\desktop\\code\\clone1\\maui_apptest\\locationphotoapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{964E5DE4-C1C9-D92B-6420-5FEE6D38BD72}|LocationPhotoApi.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{964E5DE4-C1C9-D92B-6420-5FEE6D38BD72}|LocationPhotoApi.csproj|c:\\users\\admin\\desktop\\code\\clone1\\maui_apptest\\locationphotoapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{964E5DE4-C1C9-D92B-6420-5FEE6D38BD72}|LocationPhotoApi.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{964E5DE4-C1C9-D92B-6420-5FEE6D38BD72}|LocationPhotoApi.csproj|c:\\users\\admin\\desktop\\code\\clone1\\maui_apptest\\locationphotoapi\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{964E5DE4-C1C9-D92B-6420-5FEE6D38BD72}|LocationPhotoApi.csproj|solutionrelative:services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{964E5DE4-C1C9-D92B-6420-5FEE6D38BD72}|LocationPhotoApi.csproj|c:\\users\\admin\\desktop\\code\\clone1\\maui_apptest\\locationphotoapi\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{964E5DE4-C1C9-D92B-6420-5FEE6D38BD72}|LocationPhotoApi.csproj|solutionrelative:services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{964E5DE4-C1C9-D92B-6420-5FEE6D38BD72}|LocationPhotoApi.csproj|c:\\users\\admin\\desktop\\code\\clone1\\maui_apptest\\locationphotoapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{964E5DE4-C1C9-D92B-6420-5FEE6D38BD72}|LocationPhotoApi.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{964E5DE4-C1C9-D92B-6420-5FEE6D38BD72}|LocationPhotoApi.csproj|c:\\users\\admin\\desktop\\code\\clone1\\maui_apptest\\locationphotoapi\\models\\photoinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{964E5DE4-C1C9-D92B-6420-5FEE6D38BD72}|LocationPhotoApi.csproj|solutionrelative:models\\photoinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{964E5DE4-C1C9-D92B-6420-5FEE6D38BD72}|LocationPhotoApi.csproj|c:\\users\\admin\\desktop\\code\\clone1\\maui_apptest\\locationphotoapi\\models\\qrcodedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{964E5DE4-C1C9-D92B-6420-5FEE6D38BD72}|LocationPhotoApi.csproj|solutionrelative:models\\qrcodedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{964E5DE4-C1C9-D92B-6420-5FEE6D38BD72}|LocationPhotoApi.csproj|c:\\users\\admin\\desktop\\code\\clone1\\maui_apptest\\locationphotoapi\\controllers\\locationphotocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{964E5DE4-C1C9-D92B-6420-5FEE6D38BD72}|LocationPhotoApi.csproj|solutionrelative:controllers\\locationphotocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{964E5DE4-C1C9-D92B-6420-5FEE6D38BD72}|LocationPhotoApi.csproj|c:\\users\\admin\\desktop\\code\\clone1\\maui_apptest\\locationphotoapi\\controllers\\qrcodecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{964E5DE4-C1C9-D92B-6420-5FEE6D38BD72}|LocationPhotoApi.csproj|solutionrelative:controllers\\qrcodecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{964E5DE4-C1C9-D92B-6420-5FEE6D38BD72}|LocationPhotoApi.csproj|c:\\users\\admin\\desktop\\code\\clone1\\maui_apptest\\locationphotoapi\\models\\qrcodedatarequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{964E5DE4-C1C9-D92B-6420-5FEE6D38BD72}|LocationPhotoApi.csproj|solutionrelative:models\\qrcodedatarequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{964E5DE4-C1C9-D92B-6420-5FEE6D38BD72}|LocationPhotoApi.csproj|c:\\users\\admin\\desktop\\code\\clone1\\maui_apptest\\locationphotoapi\\data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{964E5DE4-C1C9-D92B-6420-5FEE6D38BD72}|LocationPhotoApi.csproj|solutionrelative:data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{964E5DE4-C1C9-D92B-6420-5FEE6D38BD72}|LocationPhotoApi.csproj|c:\\users\\admin\\desktop\\code\\clone1\\maui_apptest\\locationphotoapi\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{964E5DE4-C1C9-D92B-6420-5FEE6D38BD72}|LocationPhotoApi.csproj|solutionrelative:migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{964E5DE4-C1C9-D92B-6420-5FEE6D38BD72}|LocationPhotoApi.csproj|c:\\users\\admin\\desktop\\code\\clone1\\maui_apptest\\locationphotoapi\\models\\locationphotorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{964E5DE4-C1C9-D92B-6420-5FEE6D38BD72}|LocationPhotoApi.csproj|solutionrelative:models\\locationphotorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{964E5DE4-C1C9-D92B-6420-5FEE6D38BD72}|LocationPhotoApi.csproj|c:\\users\\admin\\desktop\\code\\clone1\\maui_apptest\\locationphotoapi\\locationphotoapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{964E5DE4-C1C9-D92B-6420-5FEE6D38BD72}|LocationPhotoApi.csproj|solutionrelative:locationphotoapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{964E5DE4-C1C9-D92B-6420-5FEE6D38BD72}|LocationPhotoApi.csproj|c:\\users\\admin\\desktop\\code\\clone1\\maui_apptest\\locationphotoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{964E5DE4-C1C9-D92B-6420-5FEE6D38BD72}|LocationPhotoApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{964E5DE4-C1C9-D92B-6420-5FEE6D38BD72}|LocationPhotoApi.csproj|c:\\users\\admin\\desktop\\code\\clone1\\maui_apptest\\locationphotoapi\\models\\locationphotorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{964E5DE4-C1C9-D92B-6420-5FEE6D38BD72}|LocationPhotoApi.csproj|solutionrelative:models\\locationphotorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{964E5DE4-C1C9-D92B-6420-5FEE6D38BD72}|LocationPhotoApi.csproj|c:\\users\\admin\\desktop\\code\\clone1\\maui_apptest\\locationphotoapi\\models\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{964E5DE4-C1C9-D92B-6420-5FEE6D38BD72}|LocationPhotoApi.csproj|solutionrelative:models\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{964E5DE4-C1C9-D92B-6420-5FEE6D38BD72}|LocationPhotoApi.csproj|c:\\users\\admin\\desktop\\code\\clone1\\maui_apptest\\locationphotoapi\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{964E5DE4-C1C9-D92B-6420-5FEE6D38BD72}|LocationPhotoApi.csproj|solutionrelative:models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{964E5DE4-C1C9-D92B-6420-5FEE6D38BD72}|LocationPhotoApi.csproj|c:\\users\\admin\\desktop\\code\\clone1\\maui_apptest\\locationphotoapi\\models\\qrcodedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{964E5DE4-C1C9-D92B-6420-5FEE6D38BD72}|LocationPhotoApi.csproj|solutionrelative:models\\qrcodedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{964E5DE4-C1C9-D92B-6420-5FEE6D38BD72}|LocationPhotoApi.csproj|c:\\users\\admin\\desktop\\code\\clone1\\maui_apptest\\locationphotoapi\\models\\qrcodedatarequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{964E5DE4-C1C9-D92B-6420-5FEE6D38BD72}|LocationPhotoApi.csproj|solutionrelative:models\\qrcodedatarequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{964E5DE4-C1C9-D92B-6420-5FEE6D38BD72}|LocationPhotoApi.csproj|c:\\users\\admin\\desktop\\code\\clone1\\maui_apptest\\locationphotoapi\\models\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{964E5DE4-C1C9-D92B-6420-5FEE6D38BD72}|LocationPhotoApi.csproj|solutionrelative:models\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{964E5DE4-C1C9-D92B-6420-5FEE6D38BD72}|LocationPhotoApi.csproj|c:\\users\\admin\\desktop\\code\\clone1\\maui_apptest\\locationphotoapi\\controllers\\qrcodecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{964E5DE4-C1C9-D92B-6420-5FEE6D38BD72}|LocationPhotoApi.csproj|solutionrelative:controllers\\qrcodecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\Migrations\\20250606124507_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250606124507_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{964E5DE4-C1C9-D92B-6420-5FEE6D38BD72}|LocationPhotoApi.csproj|c:\\users\\admin\\desktop\\code\\clone1\\maui_apptest\\locationphotoapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{964E5DE4-C1C9-D92B-6420-5FEE6D38BD72}|LocationPhotoApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{964E5DE4-C1C9-D92B-6420-5FEE6D38BD72}|LocationPhotoApi.csproj|c:\\users\\admin\\desktop\\code\\clone1\\maui_apptest\\locationphotoapi\\locationphotoapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{964E5DE4-C1C9-D92B-6420-5FEE6D38BD72}|LocationPhotoApi.csproj|solutionrelative:locationphotoapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+      "AbsoluteMoniker": "D:0:0:{964E5DE4-C1C9-D92B-6420-5FEE6D38BD72}|LocationPhotoApi.csproj|c:\\users\\admin\\desktop\\code\\clone1\\maui_apptest\\locationphotoapi\\services\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{964E5DE4-C1C9-D92B-6420-5FEE6D38BD72}|LocationPhotoApi.csproj|solutionrelative:services\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{964E5DE4-C1C9-D92B-6420-5FEE6D38BD72}|LocationPhotoApi.csproj|c:\\users\\admin\\desktop\\code\\clone1\\maui_apptest\\locationphotoapi\\controllers\\locationphotocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{964E5DE4-C1C9-D92B-6420-5FEE6D38BD72}|LocationPhotoApi.csproj|solutionrelative:controllers\\locationphotocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{964E5DE4-C1C9-D92B-6420-5FEE6D38BD72}|LocationPhotoApi.csproj|c:\\users\\admin\\desktop\\code\\clone1\\maui_apptest\\locationphotoapi\\locationphotoapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -68,24 +100,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20250606094403_IntialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\Migrations\\20250606094403_IntialCreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250606094403_IntialCreate.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\Migrations\\20250606094403_IntialCreate.cs",
-              "RelativeToolTip": "Migrations\\20250606094403_IntialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T09:44:03.389Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "PhotoInfo.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\Models\\PhotoInfo.cs",
               "RelativeDocumentMoniker": "Models\\PhotoInfo.cs",
@@ -98,19 +117,111 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "QRCodeData.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\Models\\QRCodeData.cs",
-              "RelativeDocumentMoniker": "Models\\QRCodeData.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\Models\\QRCodeData.cs",
-              "RelativeToolTip": "Models\\QRCodeData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAWAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBkAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T18:21:40.749Z"
+              "WhenOpened": "2025-06-06T11:21:12.601Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\Services\\UserService.cs",
+              "RelativeToolTip": "Services\\UserService.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwDcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T11:45:58.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\Services\\IUserService.cs",
+              "RelativeDocumentMoniker": "Services\\IUserService.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\Services\\IUserService.cs",
+              "RelativeToolTip": "Services\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T11:45:30.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\Services\\JwtService.cs",
+              "RelativeDocumentMoniker": "Services\\JwtService.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\Services\\JwtService.cs",
+              "RelativeToolTip": "Services\\JwtService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwAsAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T11:49:51.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAwwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T11:50:30.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DbContext.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\Data\\DbContext.cs",
+              "RelativeDocumentMoniker": "Data\\DbContext.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\Data\\DbContext.cs*",
+              "RelativeToolTip": "Data\\DbContext.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T04:32:06.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LocationPhotoApi.http",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\LocationPhotoApi.http",
+              "RelativeDocumentMoniker": "LocationPhotoApi.http",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\LocationPhotoApi.http",
+              "RelativeToolTip": "LocationPhotoApi.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-05-26T10:34:22.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACMAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T10:29:40.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "QRCodeDataRequest.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\Models\\QRCodeDataRequest.cs",
               "RelativeDocumentMoniker": "Models\\QRCodeDataRequest.cs",
@@ -122,79 +233,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DbContext.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\Data\\DbContext.cs",
-              "RelativeDocumentMoniker": "Data\\DbContext.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\Data\\DbContext.cs",
-              "RelativeToolTip": "Data\\DbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "JwtSettings.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\Models\\JwtSettings.cs",
+              "RelativeDocumentMoniker": "Models\\JwtSettings.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\Models\\JwtSettings.cs",
+              "RelativeToolTip": "Models\\JwtSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T04:32:06.671Z"
+              "WhenOpened": "2025-06-06T11:44:48.452Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "QRCodeController.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\Controllers\\QRCodeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\QRCodeController.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\Controllers\\QRCodeController.cs",
-              "RelativeToolTip": "Controllers\\QRCodeController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T18:26:52.823Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LocationPhotoController.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\Controllers\\LocationPhotoController.cs",
-              "RelativeDocumentMoniker": "Controllers\\LocationPhotoController.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\Controllers\\LocationPhotoController.cs",
-              "RelativeToolTip": "Controllers\\LocationPhotoController.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAIwFEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T10:34:27.383Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "photos.json",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photos.json",
-              "RelativeDocumentMoniker": "..\\..\\..\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photos.json",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photos.json",
-              "RelativeToolTip": "..\\..\\..\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photos.json",
-              "ViewState": "AgIAABkAAAAAAAAAAAAAABIAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-27T08:46:38.033Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "photo_20250528031206042.jpg - Bitmap [1280x720, 24 bit, JPG]",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photo_20250528031206042.jpg",
-              "RelativeDocumentMoniker": "..\\..\\..\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photo_20250528031206042.jpg",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photo_20250528031206042.jpg - Bitmap [1280x720, 24 bit, JPG]",
-              "RelativeToolTip": "..\\..\\..\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photo_20250528031206042.jpg - Bitmap [1280x720, 24 bit, JPG]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2025-05-27T20:14:38.274Z",
-              "EditorCaption": " - Bitmap [1280x720, 24 bit, JPG]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AppDbContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\Migrations\\AppDbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "Migrations\\AppDbContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\Migrations\\AppDbContextModelSnapshot.cs",
-              "RelativeToolTip": "Migrations\\AppDbContextModelSnapshot.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T17:10:55.508Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "LocationPhotoRequest.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\Models\\LocationPhotoRequest.cs",
               "RelativeDocumentMoniker": "Models\\LocationPhotoRequest.cs",
@@ -206,49 +257,133 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\Models\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "Models\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\Models\\LoginRequest.cs",
+              "RelativeToolTip": "Models\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T11:44:29.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "QRCodeData.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\Models\\QRCodeData.cs",
+              "RelativeDocumentMoniker": "Models\\QRCodeData.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\Models\\QRCodeData.cs",
+              "RelativeToolTip": "Models\\QRCodeData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T18:21:40.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RegisterRequest.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\Models\\RegisterRequest.cs",
+              "RelativeDocumentMoniker": "Models\\RegisterRequest.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\Models\\RegisterRequest.cs",
+              "RelativeToolTip": "Models\\RegisterRequest.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T11:43:59.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "QRCodeController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\Controllers\\QRCodeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\QRCodeController.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\Controllers\\QRCodeController.cs",
+              "RelativeToolTip": "Controllers\\QRCodeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T18:26:52.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20250606124507_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\Migrations\\20250606124507_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250606124507_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\Migrations\\20250606124507_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20250606124507_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T12:45:08.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-05-27T04:35:01.21Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 18,
+              "Title": "IJwtService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\Services\\IJwtService.cs",
+              "RelativeDocumentMoniker": "Services\\IJwtService.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\Services\\IJwtService.cs",
+              "RelativeToolTip": "Services\\IJwtService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T10:29:40.03Z"
+              "WhenOpened": "2025-06-06T11:49:18.358Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "LocationPhotoApi.http",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\LocationPhotoApi.http",
-              "RelativeDocumentMoniker": "LocationPhotoApi.http",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\LocationPhotoApi.http",
-              "RelativeToolTip": "LocationPhotoApi.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-05-26T10:34:22.674Z"
+              "DocumentIndex": 19,
+              "Title": "LocationPhotoController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\Controllers\\LocationPhotoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LocationPhotoController.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\Controllers\\LocationPhotoController.cs",
+              "RelativeToolTip": "Controllers\\LocationPhotoController.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAIwFEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T10:34:27.383Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 21,
+              "Title": "photos.json",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photos.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photos.json",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photos.json",
+              "RelativeToolTip": "..\\..\\..\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photos.json",
+              "ViewState": "AgIAABUAAAAAAAAAAABRwBIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-27T08:46:38.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "photo_20250528031206042.jpg - Bitmap [1280x720, 24 bit, JPG]",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photo_20250528031206042.jpg",
+              "RelativeDocumentMoniker": "..\\..\\..\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photo_20250528031206042.jpg",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\code\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photo_20250528031206042.jpg - Bitmap [1280x720, 24 bit, JPG]",
+              "RelativeToolTip": "..\\..\\..\\MAUI\\MAUI_AppTest\\LocationPhotoApi\\wwwroot\\photos\\photo_20250528031206042.jpg - Bitmap [1280x720, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-05-27T20:14:38.274Z",
+              "EditorCaption": " - Bitmap [1280x720, 24 bit, JPG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "LocationPhotoApi.csproj",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\LocationPhotoApi.csproj",
               "RelativeDocumentMoniker": "LocationPhotoApi.csproj",
               "ToolTip": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\LocationPhotoApi.csproj",
               "RelativeToolTip": "LocationPhotoApi.csproj",
-              "ViewState": "AgIAAAwAAABQvZhPvZgrwBIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAABQvZhPvZgrwBgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-05-27T04:31:39.032Z"
             }

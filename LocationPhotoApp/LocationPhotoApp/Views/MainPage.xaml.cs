@@ -207,7 +207,7 @@ public partial class MainPage : ContentPage
         try
         {
             var httpClient = new HttpClient();
-            var url = "http://10.0.2.2:5273/api/qrcodedata"; // Replace with your API URL
+            var url = "http://10.0.2.2:5273/api/qrcodedata";
 
             var data = new
             {
