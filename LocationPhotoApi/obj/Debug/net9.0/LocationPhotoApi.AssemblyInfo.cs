@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LocationPhotoApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2da013ec54dd787baa9496476a394906c8600d30")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0989117d145273ad93a2a1d98a25a9c8ce4d0ac3")]
 [assembly: System.Reflection.AssemblyProductAttribute("LocationPhotoApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LocationPhotoApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

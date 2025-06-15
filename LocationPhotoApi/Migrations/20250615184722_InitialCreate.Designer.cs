@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LocationPhotoApi.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250606125748_InitialCreate")]
+    [Migration("20250615184722_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />

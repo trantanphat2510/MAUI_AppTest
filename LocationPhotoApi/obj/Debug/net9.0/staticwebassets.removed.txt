@@ -1,0 +1,6 @@
+C:\Users\admin\Desktop\code\clone2\MAUI_AppTest\LocationPhotoApi\wwwroot\photos\photo_20250606165848335.jpg
+C:\Users\admin\Desktop\code\clone2\MAUI_AppTest\LocationPhotoApi\wwwroot\photos\photo_20250606195939742.jpg
+C:\Users\admin\Desktop\code\clone2\MAUI_AppTest\LocationPhotoApi\wwwroot\photos\photo_20250606215717083.jpg
+C:\Users\admin\Desktop\code\clone2\MAUI_AppTest\LocationPhotoApi\wwwroot\photos\photo_20250606215808231.jpg
+C:\Users\admin\Desktop\code\clone2\MAUI_AppTest\LocationPhotoApi\wwwroot\photos\photo_20250606220506009.jpg
+C:\Users\admin\Desktop\code\clone2\MAUI_AppTest\LocationPhotoApi\wwwroot\photos\photo_20250606223348694.jpg

@@ -40,4 +40,29 @@ public partial class RegisterPage : ContentPage
             await DisplayAlert("Lỗi", result.Message ?? "Đăng ký thất bại", "OK");
         }
     }
+
+    private void OnTermsTapped(object sender, TappedEventArgs e)
+    {
+
+    }
+
+    private void OnPrivacyTapped(object sender, TappedEventArgs e)
+    {
+
+    }
+
+    private void OnGoogleRegisterClicked(object sender, EventArgs e)
+    {
+
+    }
+
+    private void OnFacebookRegisterClicked(object sender, EventArgs e)
+    {
+
+    }
+
+    private void OnLoginTapped(object sender, TappedEventArgs e)
+    {
+        Application.Current.MainPage = new NavigationPage(new LoginPage());
+    }
 }

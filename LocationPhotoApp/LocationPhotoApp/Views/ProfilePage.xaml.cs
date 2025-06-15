@@ -55,4 +55,9 @@ public partial class ProfilePage : ContentPage
         await _authService.LogoutAsync();
         await Shell.Current.GoToAsync("//LoginPage");
     }
+
+    private void EditProfileButton_Clicked(object sender, EventArgs e)
+    {
+
+    }
 }

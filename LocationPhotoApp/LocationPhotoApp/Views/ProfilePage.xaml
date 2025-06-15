@@ -2,24 +2,172 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="LocationPhotoApp.Views.ProfilePage"
-             Title="ProfilePage"
-             Shell.NavBarIsVisible="False">
-    <VerticalStackLayout Padding="20" Spacing="15">
-        <Label Text="Họ và tên:" FontAttributes="Bold" />
-        <Label x:Name="fullNameLabel" />
+             Title="Hồ sơ cá nhân"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="White">
 
-        <Label Text="Email:" FontAttributes="Bold" />
-        <Label x:Name="emailLabel" />
+    <ScrollView>
+        <Grid Padding="24" RowSpacing="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
 
-        <Label Text="Số điện thoại:" FontAttributes="Bold" />
-        <Label x:Name="phoneLabel" />
+            <!-- Header Section -->
+            <StackLayout Grid.Row="0" Spacing="16" Margin="0,20,0,32">
+                <!-- Profile Avatar -->
+                <Frame BackgroundColor="#F8F9FA" 
+                       CornerRadius="50" 
+                       WidthRequest="100" 
+                       HeightRequest="100" 
+                       HorizontalOptions="Center"
+                       HasShadow="False"
+                       BorderColor="#E9ECEF"
+                       Padding="0">
+                    <Label Text="👤" 
+                           FontSize="48" 
+                           HorizontalOptions="Center" 
+                           VerticalOptions="Center"
+                           TextColor="#6C757D" />
+                </Frame>
 
-        <Label Text="Ngày tạo tài khoản:" FontAttributes="Bold" />
-        <Label x:Name="createdAtLabel" />
+                <!-- Page Title -->
+                <Label Text="Hồ sơ cá nhân" 
+                       FontSize="28" 
+                       FontAttributes="Bold" 
+                       TextColor="#212529"
+                       HorizontalOptions="Center" />
+            </StackLayout>
 
-        <Button Text="Đăng xuất"
-                BackgroundColor="Red"
-                TextColor="White"
-                Clicked="LogoutButton_Clicked"/>
-    </VerticalStackLayout>
+            <!-- Profile Information Section -->
+            <StackLayout Grid.Row="1" Spacing="20">
+
+                <!-- Full Name Card -->
+                <Frame BackgroundColor="White" 
+                       CornerRadius="12" 
+                       HasShadow="True"
+                       Padding="20"
+                       BorderColor="#E9ECEF">
+                    <Frame.Shadow>
+                        <Shadow Brush="#000000" 
+                                Opacity="0.1" 
+                                Radius="8" 
+                                Offset="0,2" />
+                    </Frame.Shadow>
+                    <StackLayout Spacing="8">
+                        <Label Text="Họ và tên" 
+                               FontSize="14" 
+                               FontAttributes="Bold" 
+                               TextColor="#6C757D" />
+                        <Label x:Name="fullNameLabel" 
+                               Text="Đang tải..." 
+                               FontSize="16" 
+                               TextColor="#212529" />
+                    </StackLayout>
+                </Frame>
+
+                <!-- Email Card -->
+                <Frame BackgroundColor="White" 
+                       CornerRadius="12" 
+                       HasShadow="True"
+                       Padding="20"
+                       BorderColor="#E9ECEF">
+                    <Frame.Shadow>
+                        <Shadow Brush="#000000" 
+                                Opacity="0.1" 
+                                Radius="8" 
+                                Offset="0,2" />
+                    </Frame.Shadow>
+                    <StackLayout Spacing="8">
+                        <Label Text="Email" 
+                               FontSize="14" 
+                               FontAttributes="Bold" 
+                               TextColor="#6C757D" />
+                        <Label x:Name="emailLabel" 
+                               Text="Đang tải..." 
+                               FontSize="16" 
+                               TextColor="#212529" />
+                    </StackLayout>
+                </Frame>
+
+                <!-- Phone Card -->
+                <Frame BackgroundColor="White" 
+                       CornerRadius="12" 
+                       HasShadow="True"
+                       Padding="20"
+                       BorderColor="#E9ECEF">
+                    <Frame.Shadow>
+                        <Shadow Brush="#000000" 
+                                Opacity="0.1" 
+                                Radius="8" 
+                                Offset="0,2" />
+                    </Frame.Shadow>
+                    <StackLayout Spacing="8">
+                        <Label Text="Số điện thoại" 
+                               FontSize="14" 
+                               FontAttributes="Bold" 
+                               TextColor="#6C757D" />
+                        <Label x:Name="phoneLabel" 
+                               Text="Đang tải..." 
+                               FontSize="16" 
+                               TextColor="#212529" />
+                    </StackLayout>
+                </Frame>
+
+                <!-- Created Date Card -->
+                <Frame BackgroundColor="White" 
+                       CornerRadius="12" 
+                       HasShadow="True"
+                       Padding="20"
+                       BorderColor="#E9ECEF">
+                    <Frame.Shadow>
+                        <Shadow Brush="#000000" 
+                                Opacity="0.1" 
+                                Radius="8" 
+                                Offset="0,2" />
+                    </Frame.Shadow>
+                    <StackLayout Spacing="8">
+                        <Label Text="Ngày tạo tài khoản" 
+                               FontSize="14" 
+                               FontAttributes="Bold" 
+                               TextColor="#6C757D" />
+                        <Label x:Name="createdAtLabel" 
+                               Text="Đang tải..." 
+                               FontSize="16" 
+                               TextColor="#212529" />
+                    </StackLayout>
+                </Frame>
+
+            </StackLayout>
+
+            <!-- Action Buttons Section -->
+            <StackLayout Grid.Row="2" Spacing="12" Margin="0,32,0,20">
+
+                <!-- Edit Profile Button -->
+                <Button Text="Chỉnh sửa hồ sơ"
+                        BackgroundColor="#007BFF"
+                        TextColor="White"
+                        FontSize="16"
+                        FontAttributes="Bold"
+                        CornerRadius="8"
+                        HeightRequest="48"
+                        Clicked="EditProfileButton_Clicked" />
+
+                <!-- Logout Button -->
+                <Button Text="Đăng xuất"
+                        BackgroundColor="Transparent"
+                        TextColor="#DC3545"
+                        FontSize="16"
+                        FontAttributes="Bold"
+                        CornerRadius="8"
+                        HeightRequest="48"
+                        BorderColor="#DC3545"
+                        BorderWidth="2"
+                        Clicked="LogoutButton_Clicked" />
+
+            </StackLayout>
+
+        </Grid>
+    </ScrollView>
 </ContentPage>

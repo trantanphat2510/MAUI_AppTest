@@ -4507,11 +4507,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\LocationPhotoApi.csproj",
+      "projectUniqueName": "C:\\Users\\admin\\Desktop\\code\\clone2\\MAUI_AppTest\\LocationPhotoApi\\LocationPhotoApi.csproj",
       "projectName": "LocationPhotoApi",
-      "projectPath": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\LocationPhotoApi.csproj",
+      "projectPath": "C:\\Users\\admin\\Desktop\\code\\clone2\\MAUI_AppTest\\LocationPhotoApi\\LocationPhotoApi.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\admin\\Desktop\\code\\clone1\\MAUI_AppTest\\LocationPhotoApi\\obj\\",
+      "outputPath": "C:\\Users\\admin\\Desktop\\code\\clone2\\MAUI_AppTest\\LocationPhotoApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -32,4 +32,24 @@ public partial class LoginPage : ContentPage
             await DisplayAlert("Lỗi", result.Message ?? "Email hoặc mật khẩu không đúng", "OK");
         }
     }
+
+    private void OnForgotPasswordTapped(object sender, TappedEventArgs e)
+    {
+
+    }
+
+    private void OnGoogleLoginClicked(object sender, EventArgs e)
+    {
+
+    }
+
+    private void OnFacebookLoginClicked(object sender, EventArgs e)
+    {
+
+    }
+
+    private void OnSignUpTapped(object sender, TappedEventArgs e)
+    {
+        Application.Current.MainPage = new NavigationPage(new RegisterPage());
+    }
 }
